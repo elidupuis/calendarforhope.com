@@ -1,0 +1,138 @@
+@import url('reset.css');
+
+/* 
+	Main CSS doc for Calendar For Hope | Copyright 2009
+*/
+
+/*
+	Font-sizes. Browser default is 16px. Set body to 75%, which is equal to 12px and, therefore, 1em is 12px.
+		9px		: 0.75em
+		10px	: 0.8333em
+		11px	: 0.9167em
+		12px	: 1.0em
+		13px	: 1.0833em
+		14px	: 1.1667em
+		15px	: 1.25em
+		16px	: 1.3333em
+		17px	: 1.4167em
+		18px	: 1.5em
+		19px	: 1.5833em
+		20px	: 1.6667em
+		21px	: 1.75em
+		22px	: 1.8333em
+		23px	: 1.9167em
+		24px	: 2.0em
+		25px	: 2.0833em
+		26px	: 2.1667em
+		27px	: 2.25em
+		28px	: 2.3333em
+		29px	: 2.4167em
+		30px	: 2.5em
+		31px	: 2.5833em
+		32px	: 2.6667em
+*/
+
+
+/*
+**	=global
+************************/
+body					{ background:#d7c5b2 url('../img/bg-body.jpg') repeat 0 0; color:#3f3f3e; font:75%/1 helvetica,arial,sans-serif; }
+a						{ color:#666; text-decoration:none; }
+a:hover					{ color:#ccc; }
+a img, img				{ border:0; }
+p,ul,ol					{ margin-bottom:1em; }
+p,li					{ line-height:1.4; }
+h1,h2,h3,h4,h5,h6		{ font-weight:normal; margin-bottom:0.5em; }
+strong, b				{ font-weight:bold; }
+em, i					{ font-style:italic; }
+hr						{ border:0 dotted #ccc; border-top-width:1px; height:0; clear:both; }
+sup						{ vertical-align: top; }
+abbr                    { border-bottom: 1px dotted; cursor: help; }
+/*#content h2				{ font-size:2.25em; }
+#content h3				{ font-size:2em; }
+#content h4				{ font-size:1.75em; }
+#content h5				{ font-size:1.25em; }
+#content h6				{ font-size:1em; margin-bottom:1em; }
+#content img			{ margin-bottom:1em; }
+#content ul,#content ol	{ list-style-position:inside; }
+#content li				{ list-style-type:disc; }
+#content ol li			{ list-style-type:decimal; }*/
+
+
+/* grid */
+.wrap					{ margin:0 auto; padding:0; width:910px; position:relative; padding:0 25px; }
+.wrap:after				{ clear:both; content:'.'; display:block; visibility:hidden; height:0; }
+.wrap					{ display:inline-block; }  /* for IE/Mac */
+.wrap					{ display:block; }
+
+
+/*
+**	=branding
+************************/
+#branding				{ background:#6FB342 url('../img/bg-branding.gif') repeat-x 0 0; height:130px; }
+#branding h1			{ margin:0; }
+
+#logo					{ color: #fff; font: 36px/1.4 georgia, serif; position:absolute; left:25px; top:16px; }
+
+#navWrap				{ position:absolute; right:0; top:43px; margin:0; width:155px; z-index:99; }
+#nav					{ background:#E48703; background:rgba(111,179,66,0.9); border:1px solid #6fb342; margin:0; position:absolute; top:0; -moz-border-radius:7px; -webkit-border-radius:5px; border-radius:5px; margin:-top:5px; padding: 5px; }
+#nav.fixed				{ position:fixed; top:5px; }
+#nav li:first-child		{ border:0; }
+#nav li					{ border-left:1px solid #fff; display:inline; }
+#nav a					{ padding:0 10px; color:#fff; font-size:1.25em; }
+#nav a.active			{ font-weight:bold; }
+
+/*
+**	=content
+************************/
+#content				{ position:relative; margin-top:-33px; }
+#content .wrap			{ background:#fff; padding-top:25px; padding-bottom:25px; }
+
+#feature				{ border:1px solid #d2cbb6; padding:4px; margin-bottom:35px; }
+#feature p              { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); }
+
+/* =main-content */
+#main-content			{ display:inline; float:right; width:605px; }
+
+#main-content h2		{ color:#6fb342; line-height:1.3; font-size:2.333em; margin-top: 30px; margin-right:50px; }
+#main-content h2:first-child	{ margin-top:0; }
+
+#main-content p			{ font-size: 14px; line-height: 1.4; margin-right:20px; }
+#main-content p a		{ color:#6fb342; }
+p.hilite				{ color:#265c64; }
+
+#main-content img		{ border:1px solid #d7d1be; padding:8px; }
+
+
+/* =sub-content */
+#sub-content			{ color:#265c64; display:inline; float:left; margin-left:5px; width:260px; }
+#sub-content h2			{ font-size:1.5833em; margin:1.5em 0 1em 20px; }
+
+form p                  { margin: 0 0 0 20px; }
+form p em               { display: none; }
+
+#sub-content ul			{ margin:0 0 2em 20px; }
+#sub-content li			{ font-weight:bold; color:#666; margin-bottom:0.667em; }
+#sub-content ul.gfx li	{ background:url('../img/bg-list-item.png') no-repeat 5px 0; color:#265c64; font-size:1.1667em; font-weight:normal; margin-bottom:0.5em; padding-left:20px; }
+
+#sub-content p.img img	{ border:1px solid #d2cbb6; padding:4px; display:block; margin:20px auto 0; }
+#sub-content p.img span,
+.imgbox-wrap .imgbox-title	{ color:#265c64; display:block; font-size:0.9167em; font-style:italic; margin:3px 0 6px 27px; }
+#sub-content p.img a:hover	{ color:#666; }
+
+#sponsors a				{ color:#3f3f3e; }
+#sponsors a:hover		{ color:#666; }
+
+
+#thanks-modal           { background: #f5efe1; border: 8px solid #265c64; border-color: rgba(38,92,100,0.65); color: #6FB342; font-size: 16px; padding: 30px; width: 400px; position: fixed; top: 100px; left: 50%; margin-left: -200px; -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.25); -moz-box-shadow: 0 0 10px rgba(0,0,0,0.25); -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+#thanks-modal em        { font-weight: normal; font-style: normal; font-size: 20px; }
+#thanks-modal a         { color: #518330; font-size: 14px; }
+
+
+/*
+**	=site-info
+************************/
+#site-info				{ background:#265c64; min-height:30px; padding:1em 0; }
+#site-info p			{ color:#409aa7; margin:1em 25px; }
+#site-info p a			{ color:#409aa7; font-weight:bold; }
+#site-info p a:hover	{ color:#fff; }

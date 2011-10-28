@@ -1,0 +1,34 @@
+@import url('reset.css');
+
+/* 
+	Main CSS doc for Calendar For Hope | Copyright 2009
+	Created By Eli Dupuis. (http://www.elidupuis.com)
+*/
+
+a						{ color:#666; text-decoration:none; }
+a img, img				{ border:0; }
+p,ul,ol					{ margin-bottom:1em; }
+p,li					{ line-height:1.4; }
+h1,h2,h3,h4,h5,h6		{ font-weight:normal; margin-bottom:0.5em; }
+strong, b				{ font-weight:bold; }
+em, i					{ font-style:italic; }
+hr						{ border:0 dotted #ccc; border-top-width:1px; height:0; clear:both; }
+sup						{ vertical-align:top; }
+
+
+body				{ background:white; font-size:12pt; }
+#nav,
+#feature,
+#buy-it				{ display:none; }
+#branding,
+#content,
+#site-info			{ width:auto; margin:0 5%; padding:0; border:0; float:none !important; color:black; background:transparent none; }
+/*div#content			{ margin-left:10%; padding-top:1em; border-top:1px solid #930; }*/
+#branding h1		{ font-size:2em; }
+#content h2			{ font-size:1.5em; }
+
+a:link, a:visited	{ color:#520; background:transparent; font-weight:bold; text-decoration:underline; }
+#content a:link:after, #content a:visited:after { content:" (" attr(href) ") "; font-size:90%; }
+#content a[href^="media/"]:after { content: " (http://www.calendarforhope.com/" attr(href) ") "; }
+
+#branding:after		{ content:"Buy online at www.calendarforhope.com"; }
