@@ -1,3 +1,23 @@
+window.log=function(){log.history=log.history||[];log.history.push(arguments);if(this.console){arguments.callee=arguments.callee.caller;var a=[].slice.call(arguments);(typeof console.log==="object"?log.apply.call(console.log,console,a):console.log.apply(console,a))}};
+(function(b){function c(){}for(var d="assert,count,debug,dir,dirxml,error,exception,group,groupCollapsed,groupEnd,info,log,timeStamp,profile,profileEnd,time,timeEnd,trace,warn".split(","),a;a=d.pop();){b[a]=b[a]||c}})((function(){try
+{console.log();return window.console;}catch(err){return window.console={};}})());
+
+
+/*!
+ * jQuery Stickybox plugin
+ * http://github.com/elidupuis
+ *
+ * Copyright 2010, Eli Dupuis
+ * Version: 0.4.1
+ * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) and GPL (http://creativecommons.org/licenses/GPL/2.0/) licenses.
+ * Requires: jQuery v1.4.4 or later
+ * Based heavily on Remy Sharp's snippet at http://jqueryfordesigners.com/fixed-floating-elements/
+ */
+(function(b){var e={init:function(d){return this.each(function(){var a=b(this),c=b.extend({},b.fn.stickybox.defaults,d);if(!a.data("stickybox")){var e=a.offset().top-parseFloat(a.css("marginTop").replace(/auto/,0));b(window).bind("scroll.stickybox resize.stickybox",function(){var d=b(this).scrollTop(),g=b(window).height();b(document).height();var f=c.context.call(this,a),h=f.offset().top+f.height()-a.outerHeight(true)-c.offset;g>a.outerHeight()&&(d>=e-c.offset?a.hasClass(c.fixedClass)||(a.addClass(c.fixedClass),
+c.captured.call()):a.hasClass(c.fixedClass)&&(a.removeClass(c.fixedClass),c.released.call()),d>h?a.hasClass(c.bottomClass)||(a.addClass(c.bottomClass),c.bottomCaptured.call()):a.hasClass(c.bottomClass)&&(a.removeClass(c.bottomClass),c.bottomReleased.call()),a.outerHeight()>f.outerHeight()&&f.css("min-height",a.outerHeight()))});b(this).data("stickybox",{target:a,opts:c})}})},destroy:function(){return this.each(function(){b(this).removeClass(b(this).data("stickybox").opts.fixedClass+" "+b(this).data("stickybox").opts.bottomClass);
+b(window).unbind(".stickybox")})}};b.fn.stickybox=function(d){if(e[d])return e[d].apply(this,Array.prototype.slice.call(arguments,1));else if(typeof d==="object"||!d)return e.init.apply(this,arguments);else b.error("Method "+d+" does not exist on jQuery.stickybox")};b.fn.stickybox.defaults={fixedClass:"fixed",bottomClass:"bottom",context:function(){return b("body")},offset:0,captured:function(){},released:function(){},bottomCaptured:function(){},bottomReleased:function(){}}})(jQuery);
+
+
 /**
  * jQuery.ScrollTo - Easy element scrolling using jQuery.
  * Copyright (c) 2007-2008 Ariel Flesler - aflesler(at)gmail(dot)com | http://flesler.blogspot.com
