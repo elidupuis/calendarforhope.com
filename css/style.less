@@ -1,7 +1,7 @@
 @import "mixins.less";
 
 @c1: #352912; // brown
-@c2: #4f851b; // beige 
+@c2: #4f851b; // green 
 @c3: #9c0700;
 //@clink: #9c0700;
 
@@ -23,7 +23,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: @c2; color: #fff; text-shadow: none; }
 ::selection { background: @c2; color: #fff; text-shadow: none; }
 
-a { color: @c3; .transition(color .2s ease-in-out); }
+a { color: @c3; .transition(color .25s ease-in-out); }
 a:visited { color: lighten(@c3, 10%); }
 a:hover { color: lighten(@c3, 20%); }
 a:focus { outline: thin dotted; }
@@ -116,11 +116,10 @@ nav a.active			    { font-weight:bold; }
 /*
 **	=content
 ************************/
-#container				{ border-top: 45px solid @c1; position:relative;  }
+#container				    { border-top: 45px solid @c1; position:relative;  }
 #container .wrap			{ background:#fff; margin-top:-32px; padding-top:25px; padding-bottom:25px; }
 
-#feature				{ border:1px solid #d2cbb6; padding:4px; margin-bottom:35px; }
-#feature p              { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); }
+#feature				      { border:1px solid #d2cbb6; padding:4px; margin-bottom:35px; }
 
 /* =main-content */
 #main-content			{ display:inline; float:right; width:605px; }
@@ -155,7 +154,7 @@ form p em               { display: none; }
 //#sponsors a:hover   { color:#666; }
 
 
-#thanks-modal           { background: #f5efe1; border: 8px solid #e4e3ce; border-color: rgba(38,92,100,0.65); color: #352912; font-size: 16px; padding: 30px; width: 400px; position: fixed; top: 100px; left: 50%; margin-left: -200px; -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.25); -moz-box-shadow: 0 0 10px rgba(0,0,0,0.25); -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+#thanks-modal           { background: #f5efe1; border: 8px solid @c2; border-color: hsla(hue(@c2), saturation(@c2), lightness(@c2), 0.65); color: @c1; font-size: 16px; padding: 30px; width: 400px; position: fixed; top: 100px; left: 50%; margin-left: -200px; .box-shadow(0 0 10px rgba(0,0,0,0.25)); .border-radius(8px); }
 #thanks-modal em        { font-weight: normal; font-style: normal; font-size: 20px; }
 #thanks-modal a         { color: #518330; font-size: 14px; }
 
@@ -165,7 +164,7 @@ form p em               { display: none; }
 ************************/
 #site-info				{ background:@c2; border-top: 1px solid #fff; min-height:30px; margin:25px 0 0; padding:1em 0; }
 #site-info p			{ color:#fff; margin:1em 25px; }
-#site-info p a			{ color:#fff; font-weight:bold; .opacity(50); }
+#site-info p a			{ color:#fff; font-weight:bold; .opacity(50); .transition(opacity .25s ease-in-out); }
 #site-info p a:hover	{ .opacity(90); }
 
 
