@@ -1,9 +1,11 @@
 @import "mixins.less";
 
 @c1: #352912; // brown
-@c2: #4f851b; // green 
-@c3: #9c0700;
-//@clink: #9c0700;
+@c2: #c49f04; // green
+@c3: #C45F01;
+
+//#4F851B > #c49f04
+//#9C0700 > #C45F01
 
 @f1: adelle, helvetica, sans-serif; // 400 600
 
@@ -23,7 +25,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: @c2; color: #fff; text-shadow: none; }
 ::selection { background: @c2; color: #fff; text-shadow: none; }
 
-a { color: @c3; .transition(color .25s ease-in-out); }
+a { color: @c3; .transition(color .2s ease-in-out); }
 a:visited { color: @c3; }
 a:hover { color: lighten(@c3, 20%); }
 a:focus { outline: thin dotted; }
@@ -132,8 +134,6 @@ header  { background: @c2; border-bottom:1px solid #fff; padding:15px 0;
 #main-content p			{ font-size: 14px; line-height: 1.4; margin-right:20px; }
 #main-content .hilite				    { color:@c3; font-size: 150%; margin: 20px 30px }
 
-#main-content img		{ border:1px solid #d7d1be; padding:8px; }
-
 
 /* =sub-content */
 #sub-content			  { color:@c1; display:inline; float:left; margin-left:5px; width:260px; }
@@ -142,6 +142,8 @@ header  { background: @c2; border-bottom:1px solid #fff; padding:15px 0;
 form p                  { margin: 0 0 0 20px; }
 form p em               { display: none; }
 
+
+#sub-content h2:first-child { margin-top: 0.5em; }
 #sub-content ul			{ list-style-type: none; margin:0 0 2em 0; }
 #sub-content li			{ font-weight:bold; margin-bottom:0.667em; }
 #sub-content ul.gfx     { padding: 0 0 0 20px; }
