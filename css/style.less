@@ -85,7 +85,7 @@ a						{ color:@c3; text-decoration:none; }
 a:hover					{ color:lighten(@c3, 20%); }
 a img, img				{ border:0; }
 p,ul,ol					{ margin-bottom:1em; }
-p,li					{ line-height:1.4; }
+p,li					{ line-height:1.5; }
 h1,h2,h3,h4,h5,h6		{ font-weight:normal; margin-bottom:0.5em; }
 strong, b				{ font-weight:bold; }
 em, i					{ font-style:italic; }
@@ -131,25 +131,26 @@ header  { background: @c2; border-bottom:1px solid #fff; padding:15px 0;
 #main-content h2		{ color:@c3; line-height:1.3; font-size:2.333em; margin-top: 30px; margin-right:50px; }
 #main-content h2:first-child	{ margin-top:0; }
 
-#main-content p			{ font-size: 14px; line-height: 1.4; margin-right:20px; }
+#main-content p			{ font-size: 14px; margin-right:20px; }
 #main-content .hilite				    { color:@c3; font-size: 150%; margin: 20px 30px }
 
 
 /* =sub-content */
-#sub-content			  { color:@c1; display:inline; float:left; margin-left:5px; width:260px; }
-#sub-content h2			{ font-size:1.5833em; margin:1.5em 0 1em 20px; }
+#sub-content			  { color:@c1; display:inline; float:left; margin-left:25px; width:250px; }
+#sub-content h2			{ font-size:1.5833em; margin:1.5em 0 1em 0; }
+//#sub-content p      { margin-left: 20px; }
 
-form p                  { margin: 0 0 0 20px; }
+form p                  { margin: 0; }
 form p em               { display: none; }
 
 
 #sub-content h2:first-child { margin-top: 0.5em; }
-#sub-content ul			{ list-style-type: none; margin:0 0 2em 0; }
+#sub-content ul			{ list-style-type: none; margin:0 0 2em 0; padding: 0; }
 #sub-content li			{ font-weight:bold; margin-bottom:0.667em; }
-#sub-content ul.gfx     { padding: 0 0 0 20px; }
+//#sub-content ul.gfx     { padding: 0 0 0 20px; }
 #sub-content ul.gfx li	{ background:url('../img/bg-list-item.png') no-repeat 5px 0; font-size:1.1667em; font-weight:normal; margin-bottom:0.5em; padding-left:20px; }
 
-#sub-content p.img img	{ border:1px solid #d2cbb6; padding:4px; display:block; margin:20px auto 0; }
+#sub-content p.img img	{ border:1px solid #d2cbb6; padding:4px; margin:20px auto 0; }
 #sub-content p.img span,
 .imgbox-wrap .imgbox-title	{ display:block; font-size:0.9167em; font-style:italic; margin:3px 0 6px 27px; }
 #sub-content p.img a:hover	{ }

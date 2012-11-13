@@ -278,7 +278,7 @@ ol {
 }
 p,
 li {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 h1,
 h2,
@@ -389,7 +389,6 @@ header p {
 }
 #main-content p {
   font-size: 14px;
-  line-height: 1.4;
   margin-right: 20px;
 }
 #main-content .hilite {
@@ -402,15 +401,15 @@ header p {
   color: #352912;
   display: inline;
   float: left;
-  margin-left: 5px;
-  width: 260px;
+  margin-left: 25px;
+  width: 250px;
 }
 #sub-content h2 {
   font-size: 1.5833em;
-  margin: 1.5em 0 1em 20px;
+  margin: 1.5em 0 1em 0;
 }
 form p {
-  margin: 0 0 0 20px;
+  margin: 0;
 }
 form p em {
   display: none;
@@ -421,13 +420,11 @@ form p em {
 #sub-content ul {
   list-style-type: none;
   margin: 0 0 2em 0;
+  padding: 0;
 }
 #sub-content li {
   font-weight: bold;
   margin-bottom: 0.667em;
-}
-#sub-content ul.gfx {
-  padding: 0 0 0 20px;
 }
 #sub-content ul.gfx li {
   background: url('../img/bg-list-item.png') no-repeat 5px 0;
@@ -439,7 +436,6 @@ form p em {
 #sub-content p.img img {
   border: 1px solid #d2cbb6;
   padding: 4px;
-  display: block;
   margin: 20px auto 0;
 }
 #sub-content p.img span,
