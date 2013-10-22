@@ -1,0 +1,151 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>{{ site.name }}</title>
+  <meta name="description" content="{{ site.description }}" />
+	<meta name="author" content="{{ site.url }}/humans.txt" />
+
+	<link rel="canonical" href="{{ site.url }}"/>
+	<meta property="og:url" content="{{ site.url }}"/>
+	<meta property="og:title" content="{{ site.name }}"/>
+	<meta property="og:description" content="{{ site.description }}"/>
+	<meta property="og:image" content="{{ site.url }}/img/artwork-sample.jpg"/>
+
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+  <link rel="stylesheet" href="css/style.css?v=4">
+
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <script type="text/javascript" src="http://use.typekit.com/jme8vfr.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body>
+
+  <header role="banner" id="branding">
+  	<div class="wrap">
+  		<h1><a id="logo" href="/">the calendar for hope</a></h1>
+
+      <p>In loving memory of Christopher</p>
+    </div>
+  </header>
+
+  <div id="container" role="main">
+    <div class="wrap">
+
+  		<figure id="feature">
+  			<img src="img/banner.jpg" alt="" />
+  			<figcaption class="visuallyhidden"><em>Relish</em> 9<sup>th</sup> annual calendar for hope. 100% of proceeds are donated to the <abbr title="University of Alberta">U of A</abbr>'s <abbr title="Human Organ Procurement and Exchange">HOPE</abbr> program to help raise awareness about the importance of organ &amp; tissue donation.</figcaption>
+  		</figure>
+
+  		<div id="main-content">
+
+        {{ content }}
+
+  		</div>
+
+  		<aside id="sub-content">
+
+        <!-- <p><img src="img/soldout.png" alt="Sold out!"></p> -->
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <p>
+            <em class="visuallyhidden">a $15.00 donation gets you 1 awesome calendar</em>
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="VZGHC2J2DVWBU">
+            <input type="image" src="/img/order-1.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </p>
+        </form>
+
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <p>
+            <em class="visuallyhidden">a $100.00 donation gets you 10 awesome calendars</em>
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="R7T33KD6VBJCS">
+            <input type="image" src="/img/order-10.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </p>
+        </form>
+
+
+
+        <h2>Spread the word!</h2>
+        <!-- <p>Help spread the word by sharing Relish 2014 with your friends.</p> -->
+
+        <!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+        <a class="addthis_button_preferred_1"></a>
+        <a class="addthis_button_preferred_2"></a>
+        <a class="addthis_button_preferred_3"></a>
+        <a class="addthis_button_preferred_4"></a>
+        <a class="addthis_button_compact"></a>
+        <!-- <a class="addthis_counter addthis_bubble_style"></a> -->
+        </div>
+        <!--<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>-->
+        <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5091da5b15928fab"></script>
+        <!-- AddThis Button END -->
+
+  			<p class="img">
+  				<img src="img/chris.jpg" alt="" />
+  				<span>christopher / age nine / 1994</span>
+  			</p>
+
+  			<h2>Why buy a calendar?</h2>
+  			<ul class="gfx">
+          <li>Help raise awareness!</li>
+          <li>100% of proceeds are donated to the <abbr title="Human Organ Procurement and Exchange">HOPE</abbr> Program</li>
+  			</ul>
+
+  			<h2>Thank you sponsors!</h2>
+
+  			<ul id="sponsors">
+  				<li><a href="http://www.plusrepublic.com/">Plus Republic</a></li>
+  				<li>Dylke &amp; Company</li>
+          <li><a href="http://liftinteractive.com">Lift Interactive</a></li>
+          <li><a href="http://www.jardinsgardens.com/">jardins gardens</a></li>
+  				<li>Nancy &amp; David Hogan</li>
+
+  				<li><a href="http://thinkolio.com/">Olio Communications</a></li>
+          <li><a href="http://www.dentistsatnorthgate.com/">Dr. Rustom Appoo</li>
+  				<li><a href="http://www.golfden.ca/">The Golf Den</a></li>
+  				<li><a href="http://www.belvederegcc.com">Belvedere Golf &amp; Country Club</a></li>
+
+  			</ul>
+
+  		</aside>
+
+  	</div>
+  </div> <!--! end of #container -->
+
+  <footer role="contentinfo" id="site-info">
+  	<div class="wrap">
+  		<p>brought to you for the 9<sup>th</sup> straight year by <a href="http://zandoandjot.com">zando &amp; jot</a> (formerly vrse design inc.)</p>
+  	</div>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  <script defer src="js/script.js"></script>
+
+  <script> // Change UA-XXXXX-X to be your site's ID
+    window._gaq = [['_setAccount','UA-2345510-5'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+
+</body>
+</html>
