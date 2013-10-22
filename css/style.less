@@ -1,8 +1,8 @@
 @import "mixins.less";
 
 @c1: #000;
-@c2: #62bb46;
-@c3: #399701;
+@c2: #399701;
+@c3: @c2;
 
 // #352912 > #352912 > #000
 // #4F851B > #c49f04 > #62bb46
@@ -30,7 +30,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 a { color: @c3; .transition(color .2s ease-in-out); }
 a:visited { color: @c3; }
-a:hover { color: lighten(@c3, 20%); }
+a:hover { color: lighten(@c3, 10%); }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 

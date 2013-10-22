@@ -49,12 +49,12 @@ textarea {
   color: #222;
 }
 ::-moz-selection {
-  background: #62bb46;
+  background: #399701;
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #62bb46;
+  background: #399701;
   color: #fff;
   text-shadow: none;
 }
@@ -70,7 +70,7 @@ a:visited {
   color: #399701;
 }
 a:hover {
-  color: #5ffc02;
+  color: #4cca01;
 }
 a:focus {
   outline: thin dotted;
@@ -333,7 +333,7 @@ abbr {
 **	=branding
 ************************/
 header {
-  background: #62bb46;
+  background: #399701;
   border-bottom: 1px solid #fff;
   padding: 15px 0;
 }
@@ -444,8 +444,8 @@ form p {
 }
 #thanks-modal {
   background: #f5efe1;
-  border: 8px solid #62bb46;
-  border-color: rgba(96, 186, 69, 0.65);
+  border: 8px solid #399701;
+  border-color: rgba(56, 152, 1, 0.65);
   color: #000000;
   font-size: 16px;
   padding: 30px;
@@ -474,7 +474,7 @@ form p {
 **	=site-info
 ************************/
 #site-info {
-  background: #62bb46;
+  background: #399701;
   border-top: 1px solid #fff;
   min-height: 30px;
   margin: 25px 0 0;
