@@ -7,7 +7,7 @@
   Site: http://elidupuis.com
   Twitter: @elidupuis
   Location: Edmonton, Canada
-  
+
   Designer: Jessa Dupuis
   Site: http://zandoandjot.com
   Twitter: @jessadupuis
@@ -16,4 +16,4 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery, LESS
-  Software: Photoshop, Textmate
+  Software: Photoshop, SublimeText2
