@@ -1,13 +1,16 @@
 ---
 permalink: /
 layout: home
+published: true
 ---
 
-## Live Relish
+## Relish
 
+<!---
 By definition, curious means exciting speculation, interest, or attention through being inexplicable or highly unusual; odd or strange. A curious sort of person; a curious scene. This is the 9<sup>th</sup> anniversary of the _calendar for hope_ and as every year past, it has been put together with great interest and attention to preserving the memory of Christopher and raising awareness about the importance of organ and tissue donation.
 
 ![christmas 5 pack](img/promo.jpg)
+-->
 
 the 2014 calendar
 
