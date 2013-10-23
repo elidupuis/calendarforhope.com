@@ -13,7 +13,7 @@ By definition, relish means a pleasurable appreciation of anything. My brother h
 the 2014 calendar
 -->
 
-**Relish 2014 is a 6 x 9 inch calendar packed full of odd & strange illustrations by the creator of the _calendar for hope_, Jess Dupuis (née Hogan).** Jess donates her time, energy and award-winning talent to each illustration with the desire to raise awareness about the need for organ & tissue donation. Everyone can enjoy these conversation-starting pieces of art, so be sure to buy yours today.
+**Relish 2014 is a 5.5 x 8.5 inch calendar packed full of odd & strange illustrations by the creator of the _calendar for hope_, Jess Dupuis (née Hogan).** Jess donates her time, energy and award-winning talent to each illustration with the desire to raise awareness about the need for organ & tissue donation. Everyone can enjoy these conversation-starting pieces of art, so be sure to buy yours today.
 
 ![sample artwork from calendar](img/artwork-sample.jpg)
 
