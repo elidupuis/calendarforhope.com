@@ -4,25 +4,24 @@ layout: home
 published: true
 ---
 
-## Relish
+## Chris had a relish for life
+
+By definition, relish means a pleasurable appreciation of anything. My brother had a real relish for life. This is the 9<sup>th</sup> anniversary of the _calendar for hope_ and as every year past, it has been  put together with great pleasure in preserving the memory of Chris, as well as raising awareness about the importance of organ and tissue donation.
 
 <!---
-By definition, curious means exciting speculation, interest, or attention through being inexplicable or highly unusual; odd or strange. A curious sort of person; a curious scene. This is the 9<sup>th</sup> anniversary of the _calendar for hope_ and as every year past, it has been put together with great interest and attention to preserving the memory of Christopher and raising awareness about the importance of organ and tissue donation.
-
 ![christmas 5 pack](img/promo.jpg)
--->
-
 the 2014 calendar
+-->
 
 **Relish 2014 is a 6 x 9 inch calendar packed full of odd & strange illustrations by the creator of the _calendar for hope_, Jess Dupuis (née Hogan).** Jess donates her time, energy and award-winning talent to each illustration with the desire to raise awareness about the need for organ & tissue donation. Everyone can enjoy these conversation-starting pieces of art, so be sure to buy yours today.
 
 ![sample artwork from calendar](img/artwork-sample.jpg)
 
-## Love History
+## Relish history
 
 This is the most rewarding design project I do and I thank you—my supporters, sponsors, clients, friends and families for your generosity and support. This calendar is successful because people like you make it so.
 
-<p class="hilite"> To date, over 1,050 calendars have been sold and over $12,500 donated to the University of Alberta Hospital’s HOPE Program. We hope to make it to 1250 calendars and $15,500 with the sales of Relish 2014.</p>
+<p class="hilite">With your help, over $19,000 has been donated to the HOPE Program. The goal for 2014 is to increase that amount to over $24,000 with the sales of Relish 2014.</p>
 
 The idea was born in 2005 when Jess created a small homemade calendar for family and friends. Entitled Tonal 2006, the calendar featured Jess' art and was made in memory of her little brother, Chris. **Chris was nine years old when he passed away – he was waiting for a liver transplant.**
 
