@@ -5,7 +5,7 @@ markdown: kramdown
 
 name: "Heart 2015: Calendar for HOPE."
 url: http://calendarforhope.com
-description: "10th annual charity calendar by zando &amp; jot (formerly vrse design inc.). all proceeds go to the University of Alberta's HOPE program."
+description: "10th annual charity calendar by zando &amp; jot. all proceeds go to the University of Alberta's HOPE program."
 timezone: America/Edmonton
 
 exclude: [.gitignore, .editorconfig, Gemfile, Gemfile.lock, README.md]
