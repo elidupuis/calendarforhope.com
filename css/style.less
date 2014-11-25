@@ -1,12 +1,12 @@
 @import "mixins.less";
 
 @c1: #000;
-@c2: #399701;
+@c2: rgb(124,180,105);
 @c3: @c2;
 
 // #352912 > #352912 > #000
 // #4F851B > #c49f04 > #62bb46
-// #9C0700 > #C45F01 > #399701
+// #9C0700 > #C45F01 > #399701 > 124,180,105
 
 
 
@@ -30,7 +30,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 a { color: @c3; .transition(color .2s ease-in-out); }
 a:visited { color: @c3; }
-a:hover { color: lighten(@c3, 10%); }
+a:hover { color: darken(@c3, 20%); }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
@@ -83,9 +83,9 @@ td { vertical-align: top; }
 /*
 **	=global
 ************************/
-body					{ background: #000 url('../img/bg.png') repeat 0 0; color:#3f3f3e; font: 75%/1 @f1; }
+body					{ background: #000 url('../img/bg.jpg') repeat 0 0; color:#3f3f3e; font: 75%/1 @f1; }
 a						{ color:@c3; text-decoration:none; }
-a:hover					{ color:lighten(@c3, 20%); }
+a:hover					{ color:darken(@c3, 20%); }
 a img, img				{ border:0; }
 p,ul,ol					{ margin-bottom:1em; }
 p,li					{ line-height:1.5; }
@@ -107,8 +107,8 @@ abbr                    { border-bottom: 1px dotted; cursor: help; }
 ************************/
 header  { background: @c2; border-bottom:1px solid #fff; padding:15px 0;
   #branding h1			{ margin:0; }
-  #logo					        { color: #fff; font-size: 36px; margin:0 0 0 25px; }
-  p { color:#fff; position:absolute; right:25px; top:15px; margin:0; z-index:99; }
+  #logo					        { color: #fff; font-size: 31px; margin:0 0 0 33px; }
+  p { color:#fff; font-size:14px; position:absolute; right:25px; top:11px; margin:0; z-index:99; }
 
 }
 
@@ -123,7 +123,7 @@ header  { background: @c2; border-bottom:1px solid #fff; padding:15px 0;
 /*
 **	=content
 ************************/
-#container				    { border-top: 45px solid @c1; position:relative;  }
+#container				    { border-top: 45px solid rgb(192,48,34); position:relative;  }
 #container .wrap			{ background:#fff; margin-top:-32px; padding-top:25px; padding-bottom:25px; }
 
 #feature				      { border:1px solid #d2cbb6; padding:4px; margin-bottom:35px; }
